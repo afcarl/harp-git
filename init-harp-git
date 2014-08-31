@@ -3,4 +3,5 @@
 cd /var/www
 git fetch origin
 git reset --hard origin/master
-nave use stable NODE_ENV=production harp server /var/www --port 80
+NODE_ENV=production
+nave use stable harp server /var/www --port 80
