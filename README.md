@@ -6,4 +6,4 @@ A Container that fetches a git repo and runs harp on it so you can update the co
 
 # RUN
 
-    docker run -d --restart="always" --name="HTTP_BLOG_DSPEED_EU" --env=["HAPROXY_DOMAIN blog.dspeed.eu" "REPO git://github.com/DirektSPEED/blog_dspeed"]  dockerimages/harp-git
+    docker run -d --restart="always" --name="HTTP_BLOG_DSPEED_EU" --env HAPROXY_DOMAIN=blog.dspeed.eu --env REPO=https://github.com/DirektSPEED/blog_dspeed"]  dockerimages/harp-git
