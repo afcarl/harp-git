@@ -2,6 +2,7 @@
 ## Init Harp git
 git remote remove origin
 git remote add origin $REPO
+echo git remote add origin $REPO
 git fetch origin
 git reset --hard origin/master
 nave use stable harp server /var/www --port 80
