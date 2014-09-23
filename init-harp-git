@@ -7,4 +7,4 @@ git remote add origin $REPO
 echo git remote add origin $REPO
 git fetch origin
 git reset --hard origin/master
-nave use stable harp server /var/www --port 80
+nave use stable /.nave/installed/0.10.32/bin/harp server /var/www --port 80
